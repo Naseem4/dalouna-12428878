@@ -1,0 +1,468 @@
+﻿/* 
+ css/styles.css 
+ Student Name: NaseemAbuRaad
+ Student Id: 12428878
+*/
+
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #216869;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+}
+
+html,body{
+    scroll-behavior:smooth;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+  
+}
+
+
+
+#dalouna {
+    display: flex;
+    position:sticky;
+    margin-left: 200px;
+    color: #007f7f;
+}
+
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav{
+    
+    align-items:center;
+    padding:15px 40px;
+
+}
+
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap: 20px;
+    margin: 15px;
+
+
+}
+nav a{
+    text-decoration: none;
+    color: #007f7f;
+    font-weight:600;
+
+
+}
+
+nav a:hover{
+    color:#00b3b3;
+
+}
+
+.hero {
+ 
+  position:relative;
+  text-align:center;  
+  color:white;
+ 
+}
+
+
+.hero img{
+ margin:0;
+ width:100%;
+ height:700px;
+
+}
+
+
+#herotags {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+#welcoming {
+    color: white;
+    font-weight:bold;
+    
+  
+}
+
+
+#med {
+    background: mediumaquamarine;
+    padding: 6px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    color: black;
+}
+
+
+#levant {
+    width:650px;
+    
+}
+
+
+#menu{
+    margin: 150px;
+
+
+}
+
+
+
+
+#menue {
+    background: #007f7f;
+    padding: 12px 30px;
+    border-radius: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#menue:hover {
+    background: #00b3b3;
+    transform: scale(1);
+}
+
+
+
+#abt {
+    margin:45px 0 0 9px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#light {
+    font-size: 0.9rem;
+    color: #666;
+    padding:2px;
+    width:90%;
+    
+}
+
+#cook {
+    font-weight: bold;
+}
+
+#today {
+    font-size: 0.9rem;
+    color: #666;
+    
+}
+
+#one {
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#disc {
+    font-weight: bold;
+    margin:3px
+
+}
+
+
+
+
+#spn {
+    display: flex;
+    gap:30px
+   
+}
+
+
+
+#fresh {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    padding: 7px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#wood {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    padding: 7px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#house {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    padding: 7px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#menu {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+#two {
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+   
+}
+
+
+
+#items {
+    background: white;
+    width: 300px;
+    padding:15px 20px ;
+    margin:10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#main {
+    font-size: 1.3rem;
+    font-weight: 700;
+    
+    
+}
+
+
+#things {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: 12px;
+    
+}
+
+
+#note {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+    text-align: left;
+}
+
+
+#discrep {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 4px 0 8px 0;
+    margin-bottom:35px;
+    border-bottom: 2px dashed #eee;
+}
+
+#two span {
+    color: #007f7f;
+}
+
+#hours {
+    display: flex;
+    justify-content: center;
+    margin: 95px;
+}
+
+#card {
+    
+    display:flex;
+    justify-content:space-between;
+    
+
+   
+}
+
+
+
+#time{
+     background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#walk {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+#week {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin: 3px;
+    border-bottom: 1px dashed #eee;
+}
+
+
+#num {
+    font-weight: bold;
+}
+
+
+#gmail {
+    color:#007f7f;
+}
+
+
+#find-us {
+    display: flex;
+    justify-content: center;
+    margin:95px;
+}
+
+
+#city {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+
+
+#map {
+    background: white;
+    width: 500px;
+    padding:25px;
+    margin: 10px;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#map img{
+    border-radius:20px;
+    width:100%;
+
+
+
+}
+
+
+
+#find-us img {
+    background:none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+
+#parking {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+
+
+#find-us img {
+    margin: 0;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+:target::before {
+
+    content: "";
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+
+}
+
+
+
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    padding: 20px 0;
+    border-top: 1px solid #ddd; 
+}
+
+footer a {
+    color: #007f7f;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color: #007f7f;
+}
+
+
+
+#high{
+  margin-left:400px;
+  margin-top:50px
+
+}
+
+#exclude {
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #666;
+}
