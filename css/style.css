@@ -466,3 +466,284 @@ footer a {
     font-size: 0.9rem;
     color: #666;
 }
+
+
+@media (max-width: 480px) {
+
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav {
+        padding: 5px 0;
+    }
+
+        nav ul {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 5px 0;
+        }
+
+    #dalouna {
+        margin: 5px 0 0 0;
+    }
+
+
+    .hero img {
+        height: 350px;
+        object-fit: cover;
+    }
+
+    #herotags {
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+
+    #abt {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    #one {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    #menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: 60px 0;
+    }
+
+    #items {
+        width: 85%;
+        margin: 10px auto;
+    }
+
+    #two {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #hours  {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+    #find-us {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #card {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #city {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #time, #map {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #high {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #exclude {
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+        #levant {
+            width: 400px
+        }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body {
+        font-size: 15px;
+    }
+
+
+    .site-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 40px;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 18px;
+        flex-wrap: nowrap;
+    }
+
+    #dalouna {
+        margin-left: 80px;
+        font-size: 1.2rem;
+    }
+
+    .hero img {
+        height: 550px;
+        object-fit: cover;
+    }
+
+
+    #abt {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin: 60px auto;
+        flex-wrap: nowrap;
+    }
+
+    #one {
+        width: 45%;
+        margin: 0;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin: 100px 0;
+    }
+
+    #items {
+        width: 280px;
+    }
+
+    #two {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+
+    #hours  {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: nowrap;
+    }
+
+    #find-us {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: nowrap;
+    }
+
+    #card {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: nowrap;
+    }
+
+    #city {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: nowrap;
+    }
+
+
+    #time {
+        width: 45%;
+        margin: 15px;
+    }
+
+    #map {
+        width: 45%;
+        margin: 15px;
+    }
+
+        #high {
+            margin-left: 120px;
+        }
+
+    #exclude {
+        margin-left: 120px;
+    }
+}
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .site-header {
+        padding: 15px 50px;
+    }
+
+    #dalouna {
+        margin-left: 150px;
+    }
+
+    #one {
+        width: 450px;
+    }
+
+    #time {
+        width: 450px;
+    }
+
+
+    #map {
+        width: 450px;
+    }
+
+    #items {
+        width: 280px;
+    }
+
+    #menu {
+        margin: 100px;
+        gap: 25px;
+    }
+
+    #abt {
+        margin: 60px auto;
+    }
+
+    #high{
+        margin-left: 250px;
+
+    }
+
+    #exclude {
+        margin-left: 250px;
+    }
+}
